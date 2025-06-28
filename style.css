@@ -1,0 +1,33 @@
+/* Banner */
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Cards de produtos */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Responsivo ajuste no banner */
+@media (max-width: 768px) {
+    .banner {
+        height: 40vh;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+}
