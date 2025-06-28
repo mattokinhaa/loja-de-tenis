@@ -1,6 +1,6 @@
 /* Banner */
 .banner {
-    background-image: url('https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2');
+    background-image: url(img/);
     background-size: cover;
     background-position: center;
     height: 60vh;
