@@ -1,6 +1,12 @@
+/* header */
+header{
+    background: azure;
+}
+/* fim da header */
+
 /* Banner */
 .banner {
-    background-image: url(img/card\ inicio.jpg);
+    background-image: url(img/card\ inicio2.png);
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -30,4 +36,10 @@
     .banner h1 {
         font-size: 2rem;
     }
+}
+.navbar-brand{
+    width: 100px;
+}
+.nav-item{
+    font-size: 20px;
 }
